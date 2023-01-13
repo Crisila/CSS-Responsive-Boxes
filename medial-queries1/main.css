@@ -1,3 +1,114 @@
+/* background styling */
 body {
-  background: blanchedalmond;
+  background: rgb(89, 96, 106);
+}
+
+/* {
+  box-sizing: border-box;
+} */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.a {
+  background-color: rgb(218, 211, 198);
+  margin: 1em;
+  width: 100%;
+
+}
+
+
+
+
+
+.b {
+  background-color: rgb(218, 211, 198);
+  display: flex;
+  margin: 1em;
+  width: 48%;
+
+  
+
+}
+
+.c {
+  background-color: rgb(218, 211, 198);
+  display: flex;
+  margin: 1em;
+  width: 48%;
+
+}
+
+
+/* 
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+aside {
+  min-width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .b {
+  background-color: rgb(218, 211, 198);
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  height: 20em;
+  width: 30em;
+}
+
+.c {
+  background-color: rgb(218, 211, 198);
+  margin: 1em;
+  width: 40em;
+  padding: 1em;
+  text-align: center;
+  position: relative;
+  bottom: 43.45em;
+  left: 77em;
+} */
+
+
+
+@media (max-width: 400px) { 
+  .a,
+  .b,
+  .c {
+    width: 100%;
+
+  }
+
+  
+  /* .a {
+    background-color: rgb(218, 211, 198);
+    margin: 1em;
+    min-height: 10em;
+    text-align: center;
+  }
+
+  .b {
+    background-color: rgb(218, 211, 198);
+    margin: 1em;
+    min-height: 70em;
+    min-width: 10em;
+    text-align: center;
+
+  }
+  
+  .c {
+    background-color: rgb(218, 211, 198);
+    margin: 1em;
+    min-height: 20em;
+    text-align: center;
+
+  } */
 }

@@ -1,3 +1,20 @@
 body {
   background: papayawhip;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.a {
+  background-color: rgb(218, 211, 198);
+  margin: 1em;
+}
+.b {
+  background-color: rgb(218, 211, 198);
+  margin: 1em;
+}
+
+
+
