@@ -29,7 +29,7 @@ body {
   background-color: rgb(218, 211, 198);
   display: flex;
   margin: 1em;
-  width: 48%;
+  width: 68%;
 
   
 
@@ -39,7 +39,7 @@ body {
   background-color: rgb(218, 211, 198);
   display: flex;
   margin: 1em;
-  width: 48%;
+  width: 20%;
 
 }
 
@@ -84,6 +84,7 @@ aside {
   .b,
   .c {
     width: 100%;
+    margin: 1em;
 
   }
 
